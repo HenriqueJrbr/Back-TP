@@ -12,7 +12,7 @@ router.post('/clienteCadastrar', clienteController.Insert);
 // router.put('/clientes/:cd_cliente', clienteController.Update);
 // router.delete('/clientes/:cd_cliente', clienteController.Delete);
 // router.post('/produtos', produtoController.Insert);
-// router.get('/produtos', produtoController.SelectAll);
+ router.get('/produtos', produtoController.SelectAll);
 // router.get('/produtos/:cd_produto', produtoController.SelectDetail);
 // router.put('/produtos/:cd_produto', produtoController.Update);
 // router.delete('/produtos/:cd_produto', produtoController.Delete);

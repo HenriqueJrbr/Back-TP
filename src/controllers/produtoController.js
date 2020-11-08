@@ -29,7 +29,7 @@ exports.Insert = (req, res, next) => {
 exports.SelectAll = (req, res, next) => {
         
     produto.findAll({
-            attributes : ['id','nm_produto','vl_preco_produto','nm_path_foto']
+            attributes : ['id_produto','nm_produto','vl_preco_produto','nm_path_foto']
     })        
             .then(produto => {
                     if (produto) {     
