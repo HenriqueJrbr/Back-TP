@@ -6,7 +6,7 @@ const sequelize = require('../database/database.js');
 
 const produto = sequelize.define('tb_produto', {
 
-    id: {
+    id_produto: {
         allowNull: false,        
         primaryKey: true,
         autoIncrement: true,

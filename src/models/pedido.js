@@ -31,7 +31,7 @@ const pedido = sequelize.define('tb_pedido', {
         type: DataTypes.INTEGER,
         references:{
             model: 'tb_produtos',
-            key: 'id'
+            key: 'id_produto'
         }
     }    
     

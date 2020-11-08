@@ -18,17 +18,35 @@ const cliente = sequelize.define('tb_cliente', {
     nm_cliente: {
         type: DataTypes.STRING(100),    
     },
-    cd_cpf: {
-        type: DataTypes.STRING(13),    
+    sn_cliente: {
+        type: DataTypes.STRING(100),    
     },
-    cd_rg: {
-        type: DataTypes.STRING(10),
+    cep_cliente: {
+        type: DataTypes.STRING(9),    
     },
-    nm_login: {
+    tel_cliente: {
+        type: DataTypes.STRING(11),
+    },
+    nm_rua_cliente: {
+        type: DataTypes.STRING(150),
+    },
+    num_endereco_cliente: {
+        type: DataTypes.STRING(20),
+    },
+    nm_bairro_cliente: {
+        type: DataTypes.STRING(100),
+    },
+    nm_cidade_cliente: {
+        type: DataTypes.STRING(100),
+    },
+    uf_endereco_cliente: {
+        type: DataTypes.STRING(2),
+    },
+    nm_complemento_cliente: {
         type: DataTypes.STRING(50),
     },
-    nm_senha: {
-        type: DataTypes.STRING(20),
+    email_cliente: {
+        type: DataTypes.STRING(100),
     }
     
 });
